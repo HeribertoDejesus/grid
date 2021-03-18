@@ -1,6 +1,4 @@
-:root {
-  --gradient: linear-gradient(to right top, #d16ba5, #ef7387, #f68968, #eaa652, #cdc454, #b6d467, #9ae282, #7aeea3, #6cf2b8, #62f6cd, #5df9e0, #5ffbf1);
-}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,6 +8,9 @@
 body {
   height: 100vh;
   background-image: linear-gradient(to right top, #e3198c, #ff3b60, #ff6e34, #f09f00, #cbc900, #98d548, #62dc7b, #00dfab, #00c2d3, #009fff, #0072ff, #1414e5);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 760px;
 }
 .main-container-grid {
   width: 100%;
@@ -19,6 +20,7 @@ body {
 .main-container {
   display: grid;
   width: 80%;
+  min-width: 760px;
   height: 80vh;
   margin: 0 auto;
   box-shadow: 0 4px 8px rgba(60, 60, 60, 0.50);
@@ -221,3 +223,7 @@ background-size: cover;
   /* background-repeat: no-repeat; */
   background-size: cover;
 }
+
+/* .grid {
+  min-width: 320px;
+} */
