@@ -1,0 +1,223 @@
+:root {
+  --gradient: linear-gradient(to right top, #d16ba5, #ef7387, #f68968, #eaa652, #cdc454, #b6d467, #9ae282, #7aeea3, #6cf2b8, #62f6cd, #5df9e0, #5ffbf1);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to right top, #e3198c, #ff3b60, #ff6e34, #f09f00, #cbc900, #98d548, #62dc7b, #00dfab, #00c2d3, #009fff, #0072ff, #1414e5);
+}
+.main-container-grid {
+  width: 100%;
+  height: 100vh;
+
+}
+.main-container {
+  display: grid;
+  width: 80%;
+  height: 80vh;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(60, 60, 60, 0.50);
+  border-radius: 10px;
+  grid-template: repeat(6, 1fr) / repeat(6, 1fr);
+  grid-template-areas:
+    "card6 card4 card4  card2 card2 card7"
+    "card9 card4 card4  card2 card2 card8"
+    "card10 card11 card1 card1 card18 card17"
+    "card13 card14 card1 card1 card20 card19"
+    "card16 card5 card5  card3 card3 card21"
+    "card15 card5 card5  card3 card3 card23";
+    gap: 5px 5px;
+
+}
+.grid3 {
+  /* background-color: #1414e5; */
+  grid-area: card3;
+  background-image:  url('./assets/bild3.png');
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid1 {
+ /* background-color: red; */
+ background-image: url('./assets/bild1.png');
+ background-repeat: no-repeat;
+ background-position: initial;
+ background-size: cover;
+  /* grid-column: 4 / 6;
+  grid-row: 6 / 9; */
+  grid-area: card1;
+}
+
+.grid2 {
+  /* background-color: green; */
+  grid-area: card2;
+  background-image:  url('./assets/bild2.png');
+  background-position: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid4 {
+  /* background-color: greenyellow; */
+  grid-area: card4;
+  background-image:  url('./assets/bild4.png');
+  background-position: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid5 {
+  /* background-color: hotpink; */
+  grid-area: card5;
+  background-image:  url('./assets/bild5.png');
+  background-position: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid6 {
+  background-color: hotpink;
+  grid-area: card6;
+  background-image:  url('./assets/bild1.png');
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+.grid7 {
+background-color: lawngreen;
+grid-area: card7;
+background-image:  url('./assets/bild2.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid8 {
+  background-color: hotpink;
+grid-area: card8;
+background-image:  url('./assets/bild3.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid9 {
+  background-color: lawngreen;
+grid-area: card9;
+background-image:  url('./assets/bild4.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid10 {
+  background-color: hotpink;
+grid-area: card10;
+background-image:  url('./assets/bild5.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid11 {
+  background-color: lawngreen;
+grid-area: card11;
+background-image:  url('./assets/bild1.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid12 {
+  background-color: hotpink;
+grid-area: card12;
+background-image:  url('./assets/bild2.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid13 {
+  background-color: lawngreen;
+grid-area: card13;
+background-image:  url('./assets/bild3.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid14 {
+  background-color: hotpink;
+grid-area: card14;
+background-image:  url('./assets/bild4.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid15 {
+  background-color: lawngreen;
+grid-area: card15;
+background-image:  url('./assets/bild5.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid16 {
+  background-color: hotpink;
+grid-area: card16;
+background-image:  url('./assets/bild1.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid17 {
+  background-color: lawngreen;
+grid-area: card17;
+background-image:  url('./assets/bild2.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid18 {
+  background-color: hotpink;
+grid-area: card18;
+background-image:  url('./assets/bild3.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid19 {
+  background-color: hotpink;
+grid-area: card19;
+background-image:  url('./assets/bild4.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid20 {
+  background-color: lawngreen;
+grid-area: card20;
+background-image:  url('./assets/bild5.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid21 {
+  background-color: lawngreen;
+grid-area: card21;
+background-image:  url('./assets/bild1.png');
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.grid22 {
+  background-color: hotpink;
+  grid-area: card21;
+  background-image:  url('./assets/bild2.png');
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+.grid23 {
+  background-color: lawngreen;
+  grid-area: card23;
+  background-image:  url('./assets/bild3.png');
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
